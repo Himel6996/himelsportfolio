@@ -355,3 +355,37 @@ footer {
     line-height: 1.8;
 }
 
+/* ===== PROFESSIONAL CV BUTTON ===== */
+
+.cv-btn{
+    display:inline-block;
+    margin:40px auto;
+    padding:15px 40px;
+    background:#8b0000;
+    color:white;
+    text-decoration:none;
+    border-radius:50px;
+    font-size:17px;
+    font-weight:600;
+    letter-spacing:.6px;
+    transition:.35s ease;
+    box-shadow:0 12px 30px rgba(139,0,0,0.45);
+}
+
+/* center if inside footer or section */
+.cv-btn{
+    display:block;
+    width:max-content;
+}
+
+/* hover animation */
+.cv-btn:hover{
+    background:#b30000;
+    transform:translateY(-4px) scale(1.05);
+    box-shadow:0 20px 45px rgba(139,0,0,0.7);
+}
+
+/* click press effect */
+.cv-btn:active{
+    transform:scale(.96);
+}
