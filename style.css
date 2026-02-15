@@ -85,7 +85,7 @@ nav ul li a:hover {
 .social-links a {
     margin: 10px;
     padding: 12px 25px;
-    background: #8b0000;
+    background: #002e92;
     color: white;
     text-decoration: none;
     border-radius: 30px;
@@ -93,10 +93,19 @@ nav ul li a:hover {
     display: inline-block;
 }
 
-.social-links a:hover {
-    background: #b30000;
-    transform: translateY(-3px);
+.social-links a {
+    transition: all 0.3s ease;
 }
+
+.social-links a:hover {
+    background: #00a1b3;
+    transform: translateY(-3px);
+    box-shadow:
+        0 0 8px #00a1b3,
+        0 0 18px rgba(0,161,179,0.9),
+        0 0 30px rgba(0,161,179,0.6);
+}
+
 
 /* Sections */
 .section {
@@ -164,6 +173,8 @@ h2 {
 
 .production-logo img:hover {
     transform: scale(1.05);
+    color: bisque;
+
 }
 
 .production-content {
@@ -194,8 +205,8 @@ h2 {
 }
 
 .youtube-btn:hover {
-    background: white;
-    color: red;
+    background: #00cfb0;
+    color: rgb(0, 217, 255);
 }
 
 .facebook-btn {
@@ -203,7 +214,7 @@ h2 {
 }
 
 .facebook-btn:hover {
-    background: white;
+    background: rgb(0, 142, 137);
     color: #1877F2;
 }
 
@@ -361,7 +372,7 @@ footer {
     display:inline-block;
     margin:40px auto;
     padding:15px 40px;
-    background:#8b0000;
+    background:#740000;
     color:white;
     text-decoration:none;
     border-radius:50px;
@@ -380,9 +391,9 @@ footer {
 
 /* hover animation */
 .cv-btn:hover{
-    background:#b30000;
+    background:#00cfb0;
     transform:translateY(-4px) scale(1.05);
-    box-shadow:0 20px 45px rgba(139,0,0,0.7);
+    box-shadow:0 20px 45px rgba(16, 0, 196, 0.7);
 }
 
 /* click press effect */
